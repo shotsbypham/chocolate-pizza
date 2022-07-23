@@ -6,26 +6,35 @@ body {
 .icons{
   float: right;
 }
+
+header{
+  /* display: flex;
+  flex-direction: row; */
+}
 header h1{
   font-family: 'Yellowtail', cursive;
   font-size: 2.5rem;
 }
 header p{
   font-family: 'Dosis', sans-serif;
-
+  font-size: 0.75rem;
 }
 main h1{
   font-family: 'Roboto', sans-serif;
-
+  margin-bottom: 0;
 }
 main p{
   font-family: 'Dosis', sans-serif;
   float: left;
-
+  margin-top: 0;
 }
+
 main section {
   float: right;
+}
 
+main section p {
+  font-size: small;
 }
 
 article p{
@@ -41,13 +50,14 @@ hr{
 
 .logo {
   float: left;
+  margin-top: 22px;
 }
 
 header ul, header li {
   list-style: none;
   float: right;
   margin: 1px;
-} 
+}
 
 main ul{
   list-style-type: square;
@@ -58,6 +68,17 @@ main ul{
   columns: 2;
   list-style: none;
 }
+
 .icon li{
   display: inline;
 }
+
+nav h1 {
+  margin-bottom: 0;
+}
+
+nav p {
+  margin-top: 0;
+  margin-bottom: 20px;
+  margin-left: 50px;
+} 
