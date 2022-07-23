@@ -1,0 +1,63 @@
+body {
+  width: 901px;
+  margin: auto;
+}
+
+.icons{
+  float: right;
+}
+header h1{
+  font-family: 'Yellowtail', cursive;
+  font-size: 2.5rem;
+}
+header p{
+  font-family: 'Dosis', sans-serif;
+
+}
+main h1{
+  font-family: 'Roboto', sans-serif;
+
+}
+main p{
+  font-family: 'Dosis', sans-serif;
+  float: left;
+
+}
+main section {
+  float: right;
+
+}
+
+article p{
+  font-family: 'Ibarra Real Nova', serif;
+}
+
+hr{
+  border: 5px solid lightgray;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 901px;
+}
+
+.logo {
+  float: left;
+}
+
+header ul, header li {
+  list-style: none;
+  float: right;
+  margin: 1px;
+} 
+
+main ul{
+  list-style-type: square;
+}
+
+
+main ul{
+  columns: 2;
+  list-style: none;
+}
+.icon li{
+  display: inline;
+}
